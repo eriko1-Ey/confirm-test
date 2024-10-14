@@ -41,7 +41,11 @@
                                 name="first-name"
                                 placeholder="例:太郎" />
                         </div>
-                        <div class="form__error"></div>
+                        <div class="form__error">
+                            @error('last-name')
+                            {{$message}}
+                            @enderror
+                        </div>
                     </div>
                 </div>
 

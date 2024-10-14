@@ -1,0 +1,89 @@
+.header {
+    margin: 0 auto;
+    width: 1230px;
+    height: 70px;
+    padding: 15px;
+    text-align: center;
+    background: #fff;
+    font-family: serif;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px;
+    max-width: 1230px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header__button-submit {
+    position: absolute;
+    top: 40px;
+    left: 85%;
+    padding: 2px 15px;
+    color: #c1994d;
+    border: 1px solid #c1994d;
+}
+
+.header__logo {
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    color: #c1994d;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.admin__contact {
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: center;
+    font-family: serif;
+    color: #c1994d;
+}
+
+.search__group {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 1230px;
+}
+
+.search__content {
+    padding: 10px 20px;
+}
+
+.input_searchinput {
+    width: 300px;
+}
+
+.export__contact {
+    padding: 15px;
+    max-width: 1230px;
+    margin: 0 auto;
+    width: 64%;
+}
+
+.admin-table {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+table th {
+    background-color: #c1994d;
+    color: #fff;
+}
+
+table th,
+table td {
+    padding: 10px 33px;
+}
+
+.admin-table__button {
+    position: absolute;
+    top: 290px;
+    left: 85%;
+    padding: 2px 15px;
+}

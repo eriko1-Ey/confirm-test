@@ -1,0 +1,65 @@
+.header {
+    background: #fff;
+    font-family: serif;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+    max-width: 1230px;
+    border-bottom: 1px solid #ddd;
+    margin: 0 auto;
+}
+
+.header__button-submit {
+    position: absolute;
+    left: 1200px;
+    padding: 0 20px;
+    color: #c1994d;
+    border: 1px solid #c1994d;
+}
+
+.header__logo {
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    color: #c1994d;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.login__contact {
+    padding: 15px;
+    max-width: 1230px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #f1e2be;
+}
+
+.login__heading {
+    font-family: serif;
+    text-align: center;
+    color: #c1994d;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.form__group {
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.form__button {
+    padding-top: 30px;
+    text-align: center;
+}
