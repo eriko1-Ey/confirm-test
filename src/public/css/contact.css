@@ -1,0 +1,106 @@
+.header {
+    background: #fff;
+}
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header__logo {
+    color: #c1994d;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    color: #c1994d;
+    font-family: serif;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form__group-title {
+    padding: 10px;
+    width: 200px;
+}
+
+.form__label--required {
+    padding: 4px 6px;
+    border-radius: 3px;
+    color: #ff0000;
+}
+
+.form__input--text-name input,
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__input--text-name input {
+    height: 40px;
+}
+
+.form__input--text input {
+    width: 600px;
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    width: 600px;
+    height: 100px;
+}
+
+.form__input--radio {
+    padding: 10px;
+}
+
+.form__input--text select {
+    padding: 10px;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.form__button {
+    margin-top: 20px;
+}
+
+.form__button-submit {
+    padding: 5px;
+    width: 15%;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    background: #c1994d;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.thanks__back {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.thanks__back-word {
+    text-align: center;
+    font-size: 100px;
+    font-family: serif;
+    color: #c1944d;
+    opacity: 0.1;
+}
+
+.thanks__contact .thanks__button {
+    position: relative;
+}
+
+.thanks__heading {
+    position: absolute;
+    top: 250px;
+    left: 550px;
+    color: #c1944d;
+}
+
+.thanks__button-submit {
+    position: absolute;
+    top: 320px;
+    left: 720px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background: #c1994d;
+    color: #fff;
+    cursor: pointer;
+}
